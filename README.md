@@ -81,7 +81,6 @@ Get-FileHash WarhammerSurvivorsMods-<version>.zip
 
 - Warhammer Survivors on Steam (tested on the Unity 6000.0.74f1 build).
 - BepInEx 6.0.0-be.793, Unity IL2CPP, Windows x64 (not included). Other BepInEx builds were not tested.
-- Single-player only. Co-op was not tested.
 - Cheats can affect your own progress or achievements, so back up your save.
 
 ---
