@@ -14,24 +14,30 @@ Cheat and quality-of-life options for Warhammer Survivors, built into the game's
 
 - **Main menu:** a Mods button (or the normal Options button) opens Options with a new MODS tab: unlock all characters, weapons, stages, relics and arcanas, plus +1000 coins.
 - **Character select:** locked characters show their unlock progress ("Progress: 88 / 100 (88%)").
-- **In a run:** the pause menu gets a MODS tab next to Map, Statistics, Armoury, Emperor's Tarot and Options (Q/E cycle through it). An F1 panel in the game's own style (40K or Age of Sigmar look) and hotkeys give quick access to the same options.
+- **In a run:** the pause menu gets a MODS tab next to Map, Statistics, Armoury, Emperor's Tarot and Options (Q/E or LB/RB cycle through it; D-pad and A work inside it). An F1 panel in the game's own style (40K or Age of Sigmar look) and hotkeys give quick access to the same options.
 
 Everything is optional, and nothing in the game files is modified.
 
 ### In a run
 
 - God mode (F2), heal (F3), +1 level (F4), kill player (Delete), +1000 gold (Insert), +10 rerolls / skips / banishes.
-- Spawn a miniboss with a chest (Home) or a boss (End) of the faction on screen.
+- Spawn a miniboss with a chest (Home), a boss (End) of the faction on screen, or a chest next to you (Page Up).
 - **Nuke** (Page Down): kills everything on screen, your drops stay on the floor. 40K fires a Storm Eagle Rocket.
 - **Storm Eagle Rocket keeps drops:** the rocket blast no longer erases chests and items.
 - Multipliers: gold and XP (x1-x10), luck (x1-x50), damage (x1-x100). Enemy speed x1 / 0.75 / 0.5 / 0.25.
 - Game speed (F10), move speed x0.5 to x6 (F5).
 - Weapon effects opacity 100% down to 0% (F6). Only your own weapon visuals fade; enemy shots stay fully visible.
-- About 35 ranged weapons aim at the nearest enemy (F9 on / off).
-- Chests: faster opening (F7), auto open, auto accept, **always max** (5 prizes).
+- About 35 ranged weapons aim at the nearest enemy, the mouse cursor, or the right analog stick (F9 cycles). With a gamepad, R3 blinks toward the aim.
+- Chests: faster opening (F7), auto open, auto accept, **always max** (5 prizes), chest SFX on / off (the stage music keeps playing).
+- **Minimap** (M, or L3): stage items, places, chests and drops around you, in the corner the F1 panel does not use.
 - Mouse movement: point and click (with a destination ring), the game's drag, or off.
 - Teleport to the mouse cursor (F8), in play or on the pause-menu Map tab.
-- Hide the grey side shade, show an FPS counter, F1 panel left or right (F11).
+- Hide the grey side shade, show an FPS counter, F1 panel left or right (F11), optionally hidden on results screens.
+
+### General
+
+- Skips the Auroch Digital / Games Workshop logos, the health warning and the "Press any button" screen.
+- Gamepad in the main menu: Select opens Mods.
 
 All settings are remembered between runs and game restarts.
 
@@ -41,7 +47,7 @@ All settings are remembered between runs and game restarts.
 
 1. Find the game folder: Steam > right-click Warhammer Survivors > Manage > Browse local files.
 2. Extract `WarhammerSurvivorsMods_Standalone-<version>.zip` into that folder, keeping the folders.
-3. Start the game from Steam. The first start takes a minute or two while BepInEx builds its files. If the health warning is skipped, the mod is running.
+3. Start the game from Steam. The first start takes a minute or two while BepInEx builds its files. If the game goes straight to the main menu, the mod is running.
 
 ### Mod only
 
