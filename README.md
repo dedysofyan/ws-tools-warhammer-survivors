@@ -12,7 +12,7 @@ Cheat and quality-of-life options for Warhammer Survivors, built into the game's
 
 ## What it does
 
-- **Main menu:** a Mods button (or the normal Options button) opens Options with a new MODS tab: unlock all characters, weapons, stages, relics and arcanas, plus +1000 coins.
+- **Main menu:** a Mods button (or the normal Options button) opens Options with a new MODS tab: +1000 coins, skip Enhancements after a run, and one UNLOCK button each for all characters, weapons, stages, relics and arcanas.
 - **Character select:** locked characters show their unlock progress ("Progress: 88 / 100 (88%)").
 - **In a run:** the pause menu gets a MODS tab next to Map, Statistics, Armoury, Emperor's Tarot and Options (Q/E or LB/RB cycle through it; D-pad and A work inside it). An F1 panel in the game's own style (40K or Age of Sigmar look) and hotkeys give quick access to the same options.
 
@@ -31,15 +31,16 @@ Everything is optional, and nothing in the game files is modified.
 - Chests: faster opening (F7), auto open, auto accept, **always max** (5 prizes), chest SFX on / off (the stage music keeps playing).
 - **Minimap** (M, or L3): stage items, places, chests and drops around you, in the corner the F1 panel does not use.
 - Mouse movement: point and click (with a destination ring), the game's drag, or off.
-- Teleport to the mouse cursor (F8), in play or on the pause-menu Map tab.
-- Hide the grey side shade, show an FPS counter, F1 panel left or right (F11), optionally hidden on results screens.
+- Teleport to the mouse cursor (F8 or right click), in play or on the pause-menu Map tab.
+- **Auto Redeploy:** a Redeploy you have left is used automatically when you die.
+- Hide the grey side shade, show an FPS counter, F1 panel left or right (F11) with auto-hide while you play and on the results / Enhancements screens.
 
 ### General
 
 - Skips the Auroch Digital / Games Workshop logos, the health warning and the "Press any button" screen.
 - Gamepad in the main menu: Select opens Mods.
 
-All settings are remembered between runs and game restarts.
+All settings are remembered between runs and game restarts. The mod reacts to the game's own events instead of scanning the scene: about 0.3 ms per frame on PC, under 1 ms on Steam Deck.
 
 ## Installation
 
