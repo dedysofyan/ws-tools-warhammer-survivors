@@ -15,7 +15,7 @@ Cheat and quality-of-life options for Warhammer Survivors, built into the game's
 - **Main menu:** a Mods button (or the normal Options button) opens Options with a new MODS tab: +1000 coins, skip Enhancements after a run, and one UNLOCK button each for all characters, weapons, stages, relics and arcanas.
 - **Character select:** locked characters show their unlock progress ("Progress: 88 / 100 (88%)").
 - **Objectives and boss keys:** stage select, hero select and the run show what is still left to unlock. A minute-25 boss can only be hurt with its key weapon: stage select shows which one, and level-up marks it.
-- **In a run:** the pause menu gets a MODS tab next to Map, Statistics, Armoury, Emperor's Tarot and Options (Q/E or LB/RB cycle through it; D-pad and A work inside it). An F1 panel in the game's own style (40K or Age of Sigmar look) and hotkeys give quick access to the same options.
+- **In a run:** the pause menu gets a MODS tab next to Map, Statistics, Armoury, Emperor's Tarot and Options (Q/E or LB/RB cycle through it; D-pad and A work inside it). An F1 panel in the game's own style (40K or Age of Sigmar look, collapsible with the mouse) and hotkeys give quick access to the same options. Every option can have a hotkey: set them in Options > MODS in the main menu.
 
 Everything is optional, and nothing in the game files is modified.
 
@@ -25,10 +25,11 @@ Everything is optional, and nothing in the game files is modified.
 - Spawn a miniboss with a chest (Home, the stage's own minibosses first), the stage's boss (End), or a chest next to you (Page Up).
 - **Nuke** (Page Down): kills everything on screen, your drops stay on the floor. 40K fires a Storm Eagle Rocket.
 - **Storm Eagle Rocket keeps drops:** the rocket blast no longer erases chests and items.
-- Multipliers: gold and XP (x1-x10), luck (x1-x50), damage (x1-x100, F6). Enemy speed x1 / 0.75 / 0.5 / 0.25 (F9).
-- Game speed (F10), move speed x0.5 to x6 (F5).
-- Weapon effects opacity 100% down to 0% (F8). Only your own weapon visuals fade; enemy shots stay fully visible.
-- About 35 ranged weapons aim at the nearest enemy, the mouse cursor, or the right analog stick (F7 toggles nearest-enemy aim). With a gamepad, R3 blinks toward the aim.
+- Multipliers: gold and XP (x1-x10), luck (x1-x50), magnet / pickup range (x1-x25, with a circle that shows the pull area), damage (x1-x100). Enemy speed x1 / 0.75 / 0.5 / 0.25 (F9).
+- **Weapon and passive slots:** 1 to 12 or no limit, mid-run (F7/F8 weapons, F5/F6 passives).
+- Game speed (F10), move speed x0.5 to x6.
+- Weapon effects opacity 100% down to 0%. Only your own weapon visuals fade; enemy shots stay fully visible.
+- About 35 ranged weapons aim at the nearest enemy, the mouse cursor, or the right analog stick . With a gamepad, R3 blinks toward the aim.
 - Chests: faster opening, auto open, auto accept, **always max** (5 prizes), chest SFX on / off (the stage music keeps playing).
 - **Minimap** (M, or L3): stage items, places, chests and drops around you, in the corner the F1 panel does not use.
 - Mouse movement: point and click (with a destination ring), the game's drag, or off.
