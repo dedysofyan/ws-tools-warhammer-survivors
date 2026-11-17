@@ -29,7 +29,7 @@ Everything is optional, and nothing in the game files is modified.
 - **Weapon and passive slots:** 1 to 12 or no limit, mid-run (F7/F8 weapons, F5/F6 passives).
 - Game speed (F10), move speed x0.5 to x6.
 - Weapon effects opacity 100% down to 0%. Only your own weapon visuals fade; enemy shots stay fully visible.
-- About 35 ranged weapons aim at the nearest enemy, the mouse cursor, or the right analog stick . With a gamepad, R3 blinks toward the aim.
+- About 35 ranged weapons aim at the nearest enemy, the mouse cursor, or the right analog stick. With a gamepad, R3 blinks toward the aim.
 - Chests: faster opening, auto open, auto accept, **always max** (5 prizes), chest SFX on / off (the stage music keeps playing).
 - **Minimap** (M, or L3): stage items, places, chests and drops around you, in the corner the F1 panel does not use.
 - Mouse movement: point and click (with a destination ring), the game's drag, or off.
