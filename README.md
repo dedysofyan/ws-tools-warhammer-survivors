@@ -28,8 +28,8 @@ Everything is optional, and nothing in the game files is modified.
 - Multipliers: gold and XP (x1-x10), luck (x1-x50), magnet / pickup range (x1-x25, with a circle that shows the pull area), damage (x1-x100). Enemy speed x1 / 0.75 / 0.5 / 0.25 (F9).
 - **Weapon and passive slots:** 1 to 12 or no limit, mid-run (F7/F8 weapons, F5/F6 passives).
 - Game speed (F10), move speed x0.5 to x6.
-- Weapon effects opacity 100% down to 0%. Only your own weapon visuals fade; enemy shots stay fully visible.
-- About 35 ranged weapons aim at the nearest enemy, the mouse cursor, or the right analog stick. With a gamepad, R3 blinks toward the aim.
+- Weapon effects opacity 100% down to 0%, flamer fire, beams, trails and hit sparks included. Only your own weapon visuals fade; enemy shots stay fully visible.
+- About 35 ranged weapons aim at the nearest enemy, the mouse cursor, or the right analog stick; the character turns toward the target while it shoots. With a gamepad, R3 blinks toward the aim.
 - Chests: faster opening, auto open, auto accept, **always max** (5 prizes), chest SFX on / off (the stage music keeps playing).
 - **Minimap** (M, or L3): stage items, places, chests and drops around you, in the corner the F1 panel does not use.
 - Mouse movement: point and click (with a destination ring), the game's drag, or off.
@@ -80,7 +80,7 @@ WINEDLLOVERRIDES="winhttp=n,b" %command%
 ## Troubleshooting
 
 - **ESC doesn't open the pause menu:** check that no gamepad is switched on. The game follows the last used controller.
-- **Low FPS with lots of enemies:** turn off **Damage Numbers** and turn on **Reduce Flashing VFX** in the game's Options, and lower the weapon effects opacity.
+- **Low FPS with lots of enemies:** turn off **Damage Numbers** and turn on **Reduce Flashing VFX** in the game's Options, lower the weapon effects opacity, keep the F1 panel on auto-hide and turn the minimap off.
 - **Windows Smart App Control** can block the DLLs that BepInEx generates (for example `BepInEx\interop\PhaserPort.dll`). The mod detects this and turns its in-run features off so your frame rate stays normal. The only fix is to turn Smart App Control off (Windows Security > App & browser control > Smart App Control settings). On many Windows 11 versions it can't be turned back on without reinstalling Windows.
 - **After a game update:** delete `BepInEx\interop` and `BepInEx\cache` and start the game again. The mod itself may also need an update.
 
