@@ -38,12 +38,16 @@ Everything is optional, and nothing in the game files is modified.
 - **Auto Redeploy:** a Redeploy you have left is used automatically when you die.
 - Hide the grey side shade, show an FPS counter, F1 panel left or right (F11) with auto-hide while you play and on the results / Enhancements screens.
 
+### Local co-op (BETA)
+
+Needs two gamepads. Turn it on before the run starts (CO-OP section in the F1 panel or the pause MODS tab). Expect rough edges: the frame rate can drop on PCs that are not strong enough, mostly late in a run.
+
 ### General
 
 - Skips the Auroch Digital / Games Workshop logos, the health warning and the "Press any button" screen.
 - Gamepad in the main menu: Select opens Mods.
 
-All settings are remembered between runs and game restarts. The mod reacts to the game's own events instead of scanning the scene: about 0.3 ms per frame on PC, under 1 ms on Steam Deck.
+All settings are remembered between runs and game restarts. The mod reacts to the game's own events instead of scanning the scene: about 0.3 ms per frame early in a run and around 1 ms late in a heavy one, measured on a desktop PC.
 
 ## Installation
 
@@ -80,7 +84,7 @@ WINEDLLOVERRIDES="winhttp=n,b" %command%
 ## Troubleshooting
 
 - **ESC doesn't open the pause menu:** check that no gamepad is switched on. The game follows the last used controller.
-- **Low FPS with lots of enemies:** turn off **Damage Numbers** and turn on **Reduce Flashing VFX** in the game's Options, lower the weapon effects opacity, keep the F1 panel on auto-hide and turn the minimap off.
+- **Low FPS with lots of enemies:** the game is limited by the CPU late in a run. High impact: weapon / passive slots above 6, local co-op (beta), and evolved weapons that fire many shots. Put the slots back to 6 before the run, keep the F1 panel closed, and in the game's Options turn off **Damage Numbers** and turn on **Reduce Flashing VFX**.
 - **Windows Smart App Control** can block the DLLs that BepInEx generates (for example `BepInEx\interop\PhaserPort.dll`). The mod detects this and turns its in-run features off so your frame rate stays normal. The only fix is to turn Smart App Control off (Windows Security > App & browser control > Smart App Control settings). On many Windows 11 versions it can't be turned back on without reinstalling Windows.
 - **After a game update:** delete `BepInEx\interop` and `BepInEx\cache` and start the game again. The mod itself may also need an update.
 
